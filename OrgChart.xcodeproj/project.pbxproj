@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEA7BD2E1367C13300F4717D /* OrgChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEA7BD2C1367C13300F4717D /* OrgChart.xcdatamodeld */; };
 		DED0573E1367BF1F000F2BE3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED0573D1367BF1F000F2BE3 /* CoreData.framework */; };
 		DEF70B8D1367BCB600E40549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8C1367BCB600E40549 /* UIKit.framework */; };
 		DEF70B8F1367BCB600E40549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8E1367BCB600E40549 /* Foundation.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DEA7BD2D1367C13300F4717D /* OrgChart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrgChart.xcdatamodel; sourceTree = "<group>"; };
 		DED0573D1367BF1F000F2BE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DEF70B881367BCB600E40549 /* OrgChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrgChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF70B8C1367BCB600E40549 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -87,7 +89,6 @@
 		DEF70B7D1367BCB600E40549 = {
 			isa = PBXGroup;
 			children = (
-				DED0573D1367BF1F000F2BE3 /* CoreData.framework */,
 				DEF70B921367BCB600E40549 /* OrgChart */,
 				DEF70BB21367BCB700E40549 /* OrgChartTests */,
 				DEF70B8B1367BCB600E40549 /* Frameworks */,
@@ -107,6 +108,7 @@
 		DEF70B8B1367BCB600E40549 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DED0573D1367BF1F000F2BE3 /* CoreData.framework */,
 				DEF70B8C1367BCB600E40549 /* UIKit.framework */,
 				DEF70B8E1367BCB600E40549 /* Foundation.framework */,
 				DEF70B901367BCB600E40549 /* CoreGraphics.framework */,
@@ -124,6 +126,7 @@
 				DEF70BA21367BCB600E40549 /* OrgChartViewController.m */,
 				DEF70BA41367BCB600E40549 /* OrgChartViewController.xib */,
 				DEF70B931367BCB600E40549 /* Supporting Files */,
+				DEA7BD2C1367C13300F4717D /* OrgChart.xcdatamodeld */,
 			);
 			path = OrgChart;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				DEF70B9A1367BCB600E40549 /* main.m in Sources */,
 				DEF70B9D1367BCB600E40549 /* OrgChartAppDelegate.m in Sources */,
 				DEF70BA31367BCB600E40549 /* OrgChartViewController.m in Sources */,
+				DEA7BD2E1367C13300F4717D /* OrgChart.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +466,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEA7BD2C1367C13300F4717D /* OrgChart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEA7BD2D1367C13300F4717D /* OrgChart.xcdatamodel */,
+			);
+			currentVersion = DEA7BD2D1367C13300F4717D /* OrgChart.xcdatamodel */;
+			path = OrgChart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DEF70B7F1367BCB600E40549 /* Project object */;
 }
