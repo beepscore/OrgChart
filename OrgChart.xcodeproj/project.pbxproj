@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF70B8D1367BCB600E40549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8C1367BCB600E40549 /* UIKit.framework */; };
+		DEF70B8F1367BCB600E40549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8E1367BCB600E40549 /* Foundation.framework */; };
+		DEF70B911367BCB600E40549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B901367BCB600E40549 /* CoreGraphics.framework */; };
+		DEF70B971367BCB600E40549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF70B951367BCB600E40549 /* InfoPlist.strings */; };
+		DEF70B9A1367BCB600E40549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF70B991367BCB600E40549 /* main.m */; };
+		DEF70B9D1367BCB600E40549 /* OrgChartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF70B9C1367BCB600E40549 /* OrgChartAppDelegate.m */; };
+		DEF70BA01367BCB600E40549 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF70B9E1367BCB600E40549 /* MainWindow.xib */; };
+		DEF70BA31367BCB600E40549 /* OrgChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF70BA21367BCB600E40549 /* OrgChartViewController.m */; };
+		DEF70BA61367BCB700E40549 /* OrgChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF70BA41367BCB600E40549 /* OrgChartViewController.xib */; };
+		DEF70BAD1367BCB700E40549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8C1367BCB600E40549 /* UIKit.framework */; };
+		DEF70BAE1367BCB700E40549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8E1367BCB600E40549 /* Foundation.framework */; };
+		DEF70BAF1367BCB700E40549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B901367BCB600E40549 /* CoreGraphics.framework */; };
+		DEF70BB71367BCB700E40549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF70BB51367BCB700E40549 /* InfoPlist.strings */; };
+		DEF70BBA1367BCB700E40549 /* OrgChartTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DEF70BB91367BCB700E40549 /* OrgChartTests.h */; };
+		DEF70BBC1367BCB700E40549 /* OrgChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF70BBB1367BCB700E40549 /* OrgChartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEF70BB01367BCB700E40549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF70B7F1367BCB600E40549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF70B871367BCB600E40549;
+			remoteInfo = OrgChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEF70B881367BCB600E40549 /* OrgChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrgChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF70B8C1367BCB600E40549 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEF70B8E1367BCB600E40549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEF70B901367BCB600E40549 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEF70B941367BCB600E40549 /* OrgChart-Info.plist */ = {isa = PBXFileReference; path = "OrgChart-Info.plist"; sourceTree = "<group>"; };
+		DEF70B961367BCB600E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF70B981367BCB600E40549 /* OrgChart-Prefix.pch */ = {isa = PBXFileReference; path = "OrgChart-Prefix.pch"; sourceTree = "<group>"; };
+		DEF70B991367BCB600E40549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF70B9B1367BCB600E40549 /* OrgChartAppDelegate.h */ = {isa = PBXFileReference; path = OrgChartAppDelegate.h; sourceTree = "<group>"; };
+		DEF70B9C1367BCB600E40549 /* OrgChartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartAppDelegate.m; sourceTree = "<group>"; };
+		DEF70B9F1367BCB600E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DEF70BA11367BCB600E40549 /* OrgChartViewController.h */ = {isa = PBXFileReference; path = OrgChartViewController.h; sourceTree = "<group>"; };
+		DEF70BA21367BCB600E40549 /* OrgChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartViewController.m; sourceTree = "<group>"; };
+		DEF70BA51367BCB700E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OrgChartViewController.xib; sourceTree = "<group>"; };
+		DEF70BAC1367BCB700E40549 /* OrgChartTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrgChartTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF70BB41367BCB700E40549 /* OrgChartTests-Info.plist */ = {isa = PBXFileReference; path = "OrgChartTests-Info.plist"; sourceTree = "<group>"; };
+		DEF70BB61367BCB700E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF70BB81367BCB700E40549 /* OrgChartTests-Prefix.pch */ = {isa = PBXFileReference; path = "OrgChartTests-Prefix.pch"; sourceTree = "<group>"; };
+		DEF70BB91367BCB700E40549 /* OrgChartTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrgChartTests.h; sourceTree = "<group>"; };
+		DEF70BBB1367BCB700E40549 /* OrgChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF70B851367BCB600E40549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF70B8D1367BCB600E40549 /* UIKit.framework in Frameworks */,
+				DEF70B8F1367BCB600E40549 /* Foundation.framework in Frameworks */,
+				DEF70B911367BCB600E40549 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF70BA81367BCB700E40549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF70BAD1367BCB700E40549 /* UIKit.framework in Frameworks */,
+				DEF70BAE1367BCB700E40549 /* Foundation.framework in Frameworks */,
+				DEF70BAF1367BCB700E40549 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF70B7D1367BCB600E40549 = {
+			isa = PBXGroup;
+			children = (
+				DEF70B921367BCB600E40549 /* OrgChart */,
+				DEF70BB21367BCB700E40549 /* OrgChartTests */,
+				DEF70B8B1367BCB600E40549 /* Frameworks */,
+				DEF70B891367BCB600E40549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF70B891367BCB600E40549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF70B881367BCB600E40549 /* OrgChart.app */,
+				DEF70BAC1367BCB700E40549 /* OrgChartTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF70B8B1367BCB600E40549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF70B8C1367BCB600E40549 /* UIKit.framework */,
+				DEF70B8E1367BCB600E40549 /* Foundation.framework */,
+				DEF70B901367BCB600E40549 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF70B921367BCB600E40549 /* OrgChart */ = {
+			isa = PBXGroup;
+			children = (
+				DEF70B9B1367BCB600E40549 /* OrgChartAppDelegate.h */,
+				DEF70B9C1367BCB600E40549 /* OrgChartAppDelegate.m */,
+				DEF70B9E1367BCB600E40549 /* MainWindow.xib */,
+				DEF70BA11367BCB600E40549 /* OrgChartViewController.h */,
+				DEF70BA21367BCB600E40549 /* OrgChartViewController.m */,
+				DEF70BA41367BCB600E40549 /* OrgChartViewController.xib */,
+				DEF70B931367BCB600E40549 /* Supporting Files */,
+			);
+			path = OrgChart;
+			sourceTree = "<group>";
+		};
+		DEF70B931367BCB600E40549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF70B941367BCB600E40549 /* OrgChart-Info.plist */,
+				DEF70B951367BCB600E40549 /* InfoPlist.strings */,
+				DEF70B981367BCB600E40549 /* OrgChart-Prefix.pch */,
+				DEF70B991367BCB600E40549 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF70BB21367BCB700E40549 /* OrgChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF70BB91367BCB700E40549 /* OrgChartTests.h */,
+				DEF70BBB1367BCB700E40549 /* OrgChartTests.m */,
+				DEF70BB31367BCB700E40549 /* Supporting Files */,
+			);
+			path = OrgChartTests;
+			sourceTree = "<group>";
+		};
+		DEF70BB31367BCB700E40549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF70BB41367BCB700E40549 /* OrgChartTests-Info.plist */,
+				DEF70BB51367BCB700E40549 /* InfoPlist.strings */,
+				DEF70BB81367BCB700E40549 /* OrgChartTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF70B871367BCB600E40549 /* OrgChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF70BBF1367BCB700E40549 /* Build configuration list for PBXNativeTarget "OrgChart" */;
+			buildPhases = (
+				DEF70B841367BCB600E40549 /* Sources */,
+				DEF70B851367BCB600E40549 /* Frameworks */,
+				DEF70B861367BCB600E40549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrgChart;
+			productName = OrgChart;
+			productReference = DEF70B881367BCB600E40549 /* OrgChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEF70BAB1367BCB700E40549 /* OrgChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF70BC21367BCB700E40549 /* Build configuration list for PBXNativeTarget "OrgChartTests" */;
+			buildPhases = (
+				DEF70BA71367BCB700E40549 /* Sources */,
+				DEF70BA81367BCB700E40549 /* Frameworks */,
+				DEF70BA91367BCB700E40549 /* Resources */,
+				DEF70BAA1367BCB700E40549 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF70BB11367BCB700E40549 /* PBXTargetDependency */,
+			);
+			name = OrgChartTests;
+			productName = OrgChartTests;
+			productReference = DEF70BAC1367BCB700E40549 /* OrgChartTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF70B7F1367BCB600E40549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Beepscore LLC";
+			};
+			buildConfigurationList = DEF70B821367BCB600E40549 /* Build configuration list for PBXProject "OrgChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEF70B7D1367BCB600E40549;
+			productRefGroup = DEF70B891367BCB600E40549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF70B871367BCB600E40549 /* OrgChart */,
+				DEF70BAB1367BCB700E40549 /* OrgChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF70B861367BCB600E40549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF70B971367BCB600E40549 /* InfoPlist.strings in Resources */,
+				DEF70BA01367BCB600E40549 /* MainWindow.xib in Resources */,
+				DEF70BA61367BCB700E40549 /* OrgChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF70BA91367BCB700E40549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF70BB71367BCB700E40549 /* InfoPlist.strings in Resources */,
+				DEF70BBA1367BCB700E40549 /* OrgChartTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEF70BAA1367BCB700E40549 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF70B841367BCB600E40549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF70B9A1367BCB600E40549 /* main.m in Sources */,
+				DEF70B9D1367BCB600E40549 /* OrgChartAppDelegate.m in Sources */,
+				DEF70BA31367BCB600E40549 /* OrgChartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF70BA71367BCB700E40549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF70BBC1367BCB700E40549 /* OrgChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF70BB11367BCB700E40549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF70B871367BCB600E40549 /* OrgChart */;
+			targetProxy = DEF70BB01367BCB700E40549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEF70B951367BCB600E40549 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF70B961367BCB600E40549 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEF70B9E1367BCB600E40549 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF70B9F1367BCB600E40549 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DEF70BA41367BCB600E40549 /* OrgChartViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF70BA51367BCB700E40549 /* en */,
+			);
+			name = OrgChartViewController.xib;
+			sourceTree = "<group>";
+		};
+		DEF70BB51367BCB700E40549 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF70BB61367BCB700E40549 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF70BBD1367BCB700E40549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEF70BBE1367BCB700E40549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DEF70BC01367BCB700E40549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrgChart/OrgChart-Prefix.pch";
+				INFOPLIST_FILE = "OrgChart/OrgChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEF70BC11367BCB700E40549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrgChart/OrgChart-Prefix.pch";
+				INFOPLIST_FILE = "OrgChart/OrgChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEF70BC31367BCB700E40549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrgChart.app/OrgChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrgChartTests/OrgChartTests-Prefix.pch";
+				INFOPLIST_FILE = "OrgChartTests/OrgChartTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DEF70BC41367BCB700E40549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrgChart.app/OrgChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrgChartTests/OrgChartTests-Prefix.pch";
+				INFOPLIST_FILE = "OrgChartTests/OrgChartTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF70B821367BCB600E40549 /* Build configuration list for PBXProject "OrgChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF70BBD1367BCB700E40549 /* Debug */,
+				DEF70BBE1367BCB700E40549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF70BBF1367BCB700E40549 /* Build configuration list for PBXNativeTarget "OrgChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF70BC01367BCB700E40549 /* Debug */,
+				DEF70BC11367BCB700E40549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF70BC21367BCB700E40549 /* Build configuration list for PBXNativeTarget "OrgChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF70BC31367BCB700E40549 /* Debug */,
+				DEF70BC41367BCB700E40549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF70B7F1367BCB600E40549 /* Project object */;
+}
