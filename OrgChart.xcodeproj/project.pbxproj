@@ -39,20 +39,20 @@
 		DEF70B8C1367BCB600E40549 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEF70B8E1367BCB600E40549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEF70B901367BCB600E40549 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DEF70B941367BCB600E40549 /* OrgChart-Info.plist */ = {isa = PBXFileReference; path = "OrgChart-Info.plist"; sourceTree = "<group>"; };
+		DEF70B941367BCB600E40549 /* OrgChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrgChart-Info.plist"; sourceTree = "<group>"; };
 		DEF70B961367BCB600E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DEF70B981367BCB600E40549 /* OrgChart-Prefix.pch */ = {isa = PBXFileReference; path = "OrgChart-Prefix.pch"; sourceTree = "<group>"; };
+		DEF70B981367BCB600E40549 /* OrgChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrgChart-Prefix.pch"; sourceTree = "<group>"; };
 		DEF70B991367BCB600E40549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEF70B9B1367BCB600E40549 /* OrgChartAppDelegate.h */ = {isa = PBXFileReference; path = OrgChartAppDelegate.h; sourceTree = "<group>"; };
+		DEF70B9B1367BCB600E40549 /* OrgChartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrgChartAppDelegate.h; sourceTree = "<group>"; };
 		DEF70B9C1367BCB600E40549 /* OrgChartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartAppDelegate.m; sourceTree = "<group>"; };
 		DEF70B9F1367BCB600E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DEF70BA11367BCB600E40549 /* OrgChartViewController.h */ = {isa = PBXFileReference; path = OrgChartViewController.h; sourceTree = "<group>"; };
+		DEF70BA11367BCB600E40549 /* OrgChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrgChartViewController.h; sourceTree = "<group>"; };
 		DEF70BA21367BCB600E40549 /* OrgChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartViewController.m; sourceTree = "<group>"; };
 		DEF70BA51367BCB700E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OrgChartViewController.xib; sourceTree = "<group>"; };
 		DEF70BAC1367BCB700E40549 /* OrgChartTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrgChartTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEF70BB41367BCB700E40549 /* OrgChartTests-Info.plist */ = {isa = PBXFileReference; path = "OrgChartTests-Info.plist"; sourceTree = "<group>"; };
+		DEF70BB41367BCB700E40549 /* OrgChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrgChartTests-Info.plist"; sourceTree = "<group>"; };
 		DEF70BB61367BCB700E40549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DEF70BB81367BCB700E40549 /* OrgChartTests-Prefix.pch */ = {isa = PBXFileReference; path = "OrgChartTests-Prefix.pch"; sourceTree = "<group>"; };
+		DEF70BB81367BCB700E40549 /* OrgChartTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrgChartTests-Prefix.pch"; sourceTree = "<group>"; };
 		DEF70BB91367BCB700E40549 /* OrgChartTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrgChartTests.h; sourceTree = "<group>"; };
 		DEF70BBB1367BCB700E40549 /* OrgChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
