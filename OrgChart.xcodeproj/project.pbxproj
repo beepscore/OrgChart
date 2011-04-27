@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DED0573E1367BF1F000F2BE3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED0573D1367BF1F000F2BE3 /* CoreData.framework */; };
 		DEF70B8D1367BCB600E40549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8C1367BCB600E40549 /* UIKit.framework */; };
 		DEF70B8F1367BCB600E40549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B8E1367BCB600E40549 /* Foundation.framework */; };
 		DEF70B911367BCB600E40549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF70B901367BCB600E40549 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DED0573D1367BF1F000F2BE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DEF70B881367BCB600E40549 /* OrgChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrgChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF70B8C1367BCB600E40549 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEF70B8E1367BCB600E40549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED0573E1367BF1F000F2BE3 /* CoreData.framework in Frameworks */,
 				DEF70B8D1367BCB600E40549 /* UIKit.framework in Frameworks */,
 				DEF70B8F1367BCB600E40549 /* Foundation.framework in Frameworks */,
 				DEF70B911367BCB600E40549 /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +87,7 @@
 		DEF70B7D1367BCB600E40549 = {
 			isa = PBXGroup;
 			children = (
+				DED0573D1367BF1F000F2BE3 /* CoreData.framework */,
 				DEF70B921367BCB600E40549 /* OrgChart */,
 				DEF70BB21367BCB700E40549 /* OrgChartTests */,
 				DEF70B8B1367BCB600E40549 /* Frameworks */,
@@ -446,6 +450,7 @@
 				DEF70BC11367BCB700E40549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEF70BC21367BCB700E40549 /* Build configuration list for PBXNativeTarget "OrgChartTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +459,7 @@
 				DEF70BC41367BCB700E40549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
