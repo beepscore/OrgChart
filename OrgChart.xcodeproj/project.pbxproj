@@ -119,6 +119,7 @@
 		DEF70B921367BCB600E40549 /* OrgChart */ = {
 			isa = PBXGroup;
 			children = (
+				DEA7BD2C1367C13300F4717D /* OrgChart.xcdatamodeld */,
 				DEF70B9B1367BCB600E40549 /* OrgChartAppDelegate.h */,
 				DEF70B9C1367BCB600E40549 /* OrgChartAppDelegate.m */,
 				DEF70B9E1367BCB600E40549 /* MainWindow.xib */,
@@ -126,7 +127,6 @@
 				DEF70BA21367BCB600E40549 /* OrgChartViewController.m */,
 				DEF70BA41367BCB600E40549 /* OrgChartViewController.xib */,
 				DEF70B931367BCB600E40549 /* Supporting Files */,
-				DEA7BD2C1367C13300F4717D /* OrgChart.xcdatamodeld */,
 			);
 			path = OrgChart;
 			sourceTree = "<group>";
